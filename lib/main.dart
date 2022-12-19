@@ -12,8 +12,7 @@ void main() {
         // ignore: prefer_const_constructors
         body: Center(
           child: const Image(
-            image: NetworkImage(
-                'https://i.insider.com/52124584ecad041839000018?width=750&format=jpeg&auto=webp'),
+            image: AssetImage('images/money.jpg'),
           ),
         ),
       ),
